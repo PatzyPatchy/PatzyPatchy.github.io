@@ -13,7 +13,7 @@
 }
 
 .header-cat {
-  width: 80px;
+  width: 100px;
   height: auto;
   vertical-align: middle;
   margin-left: 8px;
@@ -97,14 +97,12 @@ body {
   gap: 24px;
   align-items: center;
 }
+
 .hero-left {
   flex: 1;
 }
-.hero-right img {
-  max-width: 331px;
-  max-height: 369px;
-  width: auto;
-  height: auto;
+.hero-right {
+  width: 320px;
 }
 
 .hero h2 {
@@ -248,4 +246,5 @@ body::after {
   opacity: 0.12;
   pointer-events: none;
 }
+
 
